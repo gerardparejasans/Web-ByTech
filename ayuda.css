@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700');
+
+
+
+header{
+    background-color:white;
+    background-size:100%;
+    padding: 5px;
+    margin:-10px;
+    position: relative;
+    height: 80px;
+}
+
+body{
+    background-color: rgb(158, 174, 188);
+}
+nav {
+    float: right;
+    margin-top: 35px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 15px;
+    margin-top: 0px;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 500;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: -10px;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+    display: inline;
+  }
+  
+  nav ul li a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+
+}
+.fotologo{
+  width: 80px;
+  margin-left: 40px;
+
+}
+h1{
+  font-family: "Poppins";
+  text-align: center;
+  margin-top: 150px;
+  color: rgb(5, 9, 52);
+  font-size: 48px;
+}
+
+.container{
+  background-color:rgb(77, 137, 205);
+  color:rgb(21, 7, 57);
+  padding: 15px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 200px;
+  border-color:black ;
+  border-radius: 10px;
+  text-align: left;
+  font-family: "Quicksand";
+  font-weight: 600;
+  border: 2px;
+  padding-right: -40px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  display: grid;
+  transition: transform 0.3s cubic-bezier(0.17, 0.67, 0.38, 1.07); 
+  gap: 1em;
+  size: 100px;
+  filter: drop-shadow(0 0 40px #1e8cb4);
+  border-color: transparent;
+  
+
+
+}
+.container:hover{
+transform: translateY(-25px)
+}
+.hcontacto{
+  font-size: 40px;
+  color: #0e4aac;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+
+
+form {
+  margin: 0 auto;
+}
+label {
+  display: block;
+  margin-top: 20px;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border-color: transparent;
+  width: 300px;
+  background-color: white;
+  
+
+
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  height: 100px;
+  border-radius: 10px;
+  border-color: transparent;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+}
+input[type="submit"] {
+  background-color:rgb(72, 72, 194);
+  color: #fff;  
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 80px;
+  font-family: "Quicksand";
+  font-weight: 800px;
+  text-align:center;
+  margin-left: 120px;
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s cubic-bezier(0.17, 0.67, 0.38, 1.07); 
+
+}
+.input:hover{
+transform: translateY(-15px)
+}
+
+.textofinalayuda{
+  font-family: "Poppins";
+  color: rgb(67, 69, 70);
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 100px;
+}
